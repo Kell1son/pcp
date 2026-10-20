@@ -9,7 +9,7 @@ Minha função: apresentar um exemplo de aplicação, controlar o simulador, con
 
 | Momento | Slide | Tempo | O que eu faço |
 |---|---|---|---|
-| Exemplo de aplicação | 9 | 1 min | Conto o caso da central de atendimento |
+| Exemplo de aplicação | 9 | 1 min | Conto o caso do erro na separação do pedido (logística) |
 | Abertura da prática | 10 | 40 s | Apresento papéis e o simulador (HTML, CSS, JS) |
 | Dinâmica, etapas 1 a 5 | 11 + simulador | 5 a 6 min | Narro cada etapa e clico em "Enviar chamado" |
 | Pergunta para a turma | 12 | 1 min | Pergunto, espero, complemento |
@@ -36,13 +36,23 @@ Se o tempo apertar: resumir a parte de HTML, CSS e JavaScript em 15 segundos.
   - Descrição: **Falta de papel na estação de montagem. Produção parada.**
 - [ ] Mesa montada: poucas folhas com o operador, folhas extras escondidas com o integrante 3
 
-## 1. Exemplo de aplicação (slide 9, 1 min)
+## 1. Exemplo de aplicação: erro na separação do pedido (slide 9, 1 min)
 
-> "Meu exemplo é em serviços. Pense em uma central de atendimento. O atendente recebe um cliente com um problema urgente. Ele aciona um alerta no sistema. O supervisor vê o alerta na hora e vai ajudar. O problema é resolvido sem o cliente esperar. Depois, o chamado fica registrado. A equipe vê quais problemas se repetem. É o mesmo princípio do Andon na fábrica: sinalizar, chamar ajuda e registrar."
+Área: logística. No slide 8 é o cartão "Logística: separação".
 
-Se outro integrante já tiver usado serviço, troco pelo exemplo de indústria:
+> "Meu exemplo é na logística, em um centro de distribuição. O colaborador está separando um pedido e percebe um item trocado ou faltando. Em vez de seguir, ele aciona o Andon. A liderança vem até o posto e confere o pedido antes da expedição. O erro é corrigido ali, e não na casa do cliente. Isso evita devolução, reenvio e custo extra. Como o chamado fica registrado, a equipe descobre onde os erros se repetem, por exemplo produtos parecidos guardados lado a lado. É o mesmo princípio do Andon: sinalizar, chamar ajuda e corrigir antes de o problema avançar."
 
-> "O operador percebe uma peça fora do padrão. Ele aciona o Andon. A qualidade vem verificar antes de o lote continuar. Isso evita que o defeito avance para a próxima etapa."
+Apontar no slide, da esquerda para a direita: colaborador (vermelho, aciona), liderança (amarelo, confere), expedição (verde, pedido correto) e registro (melhoria).
+
+Ponte para a prática: "Na nossa prática, a Logística também vai ser chamada pelo Andon, só que para repor material."
+
+Se perguntarem:
+
+| Pergunta | Resposta |
+|---|---|
+| Por que não corrigir sozinho? | O colaborador pode não ter acesso ao estoque ou autorização. E o registro se perde. |
+| Qual critério de desempenho melhora? | Qualidade (pedido certo) e confiabilidade (entrega certa, no prazo). Também custo, com menos devolução. |
+| Onde entra o Kaizen? | Os chamados mostram onde os erros se repetem, e a equipe ataca a causa. |
 
 ## 2. Abertura da prática (slide 10, 40 s)
 
